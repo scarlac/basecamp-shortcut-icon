@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "js": [ "basecamp-shortcut-icon.js" ],
+      "matches": [ "http://*.basecamphq.com/*", "https://*.basecamphq.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Adds the Basecamp favicon (aka shortcut icon) to your local basecamp site like http://mycompany.basecamphq.com. Useful for bookmarks or pinned tabs in Google Chrome.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAax98OOAQ44w7/PQhf3HS+QuECxGss4HnJ5qaVXPoe05W8c2UCj+6yqlu86xAsTE6JuShl4hhFTdxSUATVWWIf2y+xNmqAOYLsdhHJMFqjp8eDltRuboNs5JUJrtgM8w6iIjrw5e2Sr24p/a0o0U1o6ukD/h3V7K7j3Axb7EKqwIDAQAB",
+   "name": "Basecamp shortcut icon",
+   "update_url": "http://www.seph.dk/basecamp-shortcut-icon/updates.xml",
+   "version": "1.1"
+}
